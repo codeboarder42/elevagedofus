@@ -7,7 +7,7 @@ import BirthHistoryChart from "../ui/organisms/BirthHistoryChart";
 import FertileCountChart from "../ui/organisms/FertileCountChart";
 import CountPregnancy from "../ui/organisms/CountPregnancy";
 import CountReadyDelivers from "../ui/organisms/CountReadyDelivers";
-import React, { useState } from "react";
+import { useState } from "react";
 import SegmentedControl from "@/app/ui/molecules/SegmentedControl";
 
 export default function Page() {
@@ -35,7 +35,7 @@ export default function Page() {
   ];
 
   return (
-    <main className="flex flex-col gap-4 w-full h-[90%]">
+    <main className="flex flex-col gap-4 w-full h-[99%] p-4">
       <div className="grid grid-cols-[1fr_2fr] items-center">
         <SegmentedControl segments={mountChoice} />
         <ChartCard

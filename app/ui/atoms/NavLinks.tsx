@@ -11,7 +11,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const links = [
-  { name: "Home", href: "/dashboard", icon: HomeIcon },
+  { name: "Accueil", href: "/dashboard", icon: HomeIcon },
   { name: "Gestion des montures", href: "/dashboard/mounts", icon: BugAntIcon },
   { name: "Accouplements", href: "/dashboard/couplings", icon: HeartIcon },
   { name: "Gestations", href: "/dashboard/gestations", icon: ArrowPathIcon },
