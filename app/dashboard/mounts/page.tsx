@@ -1,3 +1,9 @@
+import MountTable from "../../ui/organisms/MountTable";
+
 export default function Page() {
-  return <div>Montures</div>;
+  return (
+    <div>
+      <MountTable />
+    </div>
+  );
 }
